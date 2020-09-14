@@ -1,0 +1,38 @@
+body{
+    background-color: coral;
+    background-image: url("image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    }
+
+    h1{
+        color: darkgreen;
+        background-color: aliceblue;
+        font: italic 200% fantasy;
+        text-align: center;
+        border: 3px groove #f3f2f2;
+        width: fit-content;
+        padding: 10px;
+    }
+
+    h2{
+        color: thistle;
+        background-color: rgb(88, 2, 53);
+        width: fit-content;
+       
+    }
+
+    h3{
+        color: thistle;
+        background-color: rgb(35, 2, 88);
+        width: fit-content;
+        padding: 10px;
+    }
+
+    h4{
+        color: whitesmoke;
+        background-color: rgb(3, 77, 77);
+        width: fit-content;
+        padding: 10px;
+    }
