@@ -36,3 +36,27 @@ body{
         width: fit-content;
         padding: 10px;
     }
+
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+a{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: rgb(252, 2, 2);
+    color: rgb(42, 12, 209);
+    padding: 10px;
+}
