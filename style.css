@@ -76,3 +76,34 @@ table{
     width: auto;
     padding: 10px;
 }
+
+
+/* Format the form fields */
+
+input[type=text]{
+
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: darkgray;
+    color: black;
+
+}
+
+
+input[type=text]:focus{
+    border: 5px solid #fd0000;
+}
+
+
+input[type=password]{
+
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: rgb(124, 186, 236);
+    color: black;
+
+}
