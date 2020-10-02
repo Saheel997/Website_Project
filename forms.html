@@ -26,11 +26,68 @@
 
    <form action="results.html" method="POST">
 
-       FirstName: <input type="text" size="30" value="Type your FirstName here" name="fname"/>
+       FirstName: <input type="text" size="30" name="fname" required placeholder="First Name required"/>
 
-       LastName: <input type="text" size="30" value="Last Name" name="lname"/> <br>
+       LastName: <input type="text" size="30" name="lname" required placeholder="Last Name required"/> <br>
 
-       Password: <input type="password" size="30" value="pass" name="pword"/>
+       Password: <input type="password" size="30" name="pword" required/> <br>
+
+       <!-- Checkboxes-->
+       <h3>My Hobbies</h3>
+
+       <input type="checkbox" value="swim" name="Hobbies"> Swimming
+
+       <input type="checkbox" value="music" name="Hobbies"> Listening to Music
+
+       <input type="checkbox" value="travel" name="Hobbies"> Traveling <br>
+
+       <input type="checkbox" value="read" name="Hobbies"> Reading
+
+       <input type="checkbox" value="hike" name="Hobbies"> Hiking
+
+       <!--Radio or Option buttons -->
+
+       <h4>How old are you?</h4>
+
+       <input type="radio" value="under" name="age"> 15-18 <br>
+
+       <input type="radio" value="over" name="age"> 19-25 <br>
+
+       <input type="radio" value="youth" name="age"> 26-35 <br>
+
+       <input type="radio" value="old" name="age"> 36 and above
+
+       <!--ComboBox or Dropdown menu -- Select-->
+
+       <h5>Select yout Country</h5>
+
+       <select>
+
+        <option> Nairobi </option>
+        <option> Mombasa </option>
+        <option> Kisumu </option>
+        <option> Eldoret </option>
+        <option> Machakos </option>
+        <option> Nakuru </option>
+        <option> Kisii </option>
+
+       </select>
+
+       <!--Textarea-- textbox with multiple lines and columns-->
+
+       <h6>Type your comments</h6>
+
+       <textarea cols="50" rows="10">
+
+        Here your opinion matters
+       </textarea>
+
+       
+       <p></p>
+
+       <input type="submit" value="Click Me" name="submit"/>
+
+       <input type="reset" value="Cancel" name="reset"/>
 
 
 

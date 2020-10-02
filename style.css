@@ -107,3 +107,38 @@ input[type=password]{
     color: black;
 
 }
+
+/* Format the buttons */
+
+input[type=submit]{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    padding: 10px 22px;
+    border: 5px solid white;
+}
+
+input[type=reset]{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    padding: 10px 22px;
+    border: 5px solid white;
+}
+
+input[type=submit]:hover{
+
+    background-color: rgb(88, 195, 245);
+    color: rgb(236, 243, 242);
+    border-radius: 10px;
+    width: 120px;
+}
+
+
+input[type=reset]:hover{
+
+    background-color: rgb(88, 195, 245);
+    color: rgb(236, 243, 242);
+    border-radius: 10px;
+    width: 120px;
+}
